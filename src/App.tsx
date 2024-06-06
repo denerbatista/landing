@@ -12,6 +12,8 @@ function App() {
         justifyContent: "center",
         alignItems: "center",
         width: "100vw",
+        gap: "2rem",
+        backgroundColor: "#00bfff",
       }}
     >
       <Header />

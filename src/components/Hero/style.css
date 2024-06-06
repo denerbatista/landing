@@ -1,10 +1,10 @@
 #section-hero {
   display: flex;
-  width: 79rem;
+  width: 65.83vw;
   flex-direction: column;
   border-radius: 2rem;
   padding: 2rem;
-  background-color: #00bfff;
+  background-color: #8a2be2;
 }
 
 #section-hero > div {
@@ -13,24 +13,4 @@
   align-items: center;
   gap: 0.5rem;
   padding-bottom: 1rem;
-}
-
-#section-hero > div > h1 {
-  font-size: 3rem;
-  color: #ffffff;
-}
-
-#section-hero > div > h2 {
-  color: #ffd700;
-}
-
-#section-hero > button {
-  margin: auto;
-  padding: 3rem;
-  background-color: #FF1493;
-  color: #ffffff;
-  border-radius: 1.5rem;
-  border: none;
-  font-size: 2rem;
-  margin-top: 1rem;
 }
