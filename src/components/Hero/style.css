@@ -2,9 +2,6 @@
   display: flex;
   width: 65.83vw;
   flex-direction: column;
-  border-radius: 2rem;
-  padding: 2rem;
-  background-color: #8a2be2;
 }
 
 #section-hero > div {
@@ -13,4 +10,8 @@
   align-items: center;
   gap: 0.5rem;
   padding-bottom: 1rem;
+}
+
+#section-hero > img{
+  border-radius: 2rem;
 }
