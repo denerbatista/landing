@@ -5,6 +5,9 @@ header {
   align-items: center;
   background-color: #8a2be2;
   border-radius: 2rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
 }
 
 header > img {

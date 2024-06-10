@@ -16,6 +16,12 @@
   font-size: 2rem;
   margin-top: 1rem;
   width: 30.9rem;
+  cursor: pointer;
+  transition: 1.3s;
+  &:hover{
+    background-color: #ffffff;
+    color: #ff1493;
+  }
 }
 
 .h2-default {
