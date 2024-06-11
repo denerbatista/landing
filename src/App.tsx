@@ -1,4 +1,6 @@
 import "./App.css";
+import "./animations.css"
+import About from "./components/About";
 import Form from "./components/Form";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -19,6 +21,7 @@ function App() {
     >
       <Header />
       <Hero />
+      <About/>
       <Tickets />
       <Form />
     </div>

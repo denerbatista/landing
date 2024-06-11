@@ -37,6 +37,14 @@ header > nav > ul > li > a {
   }
 }
 
+.scrolled {
+  background-color: #4b0082; /* Cor quando desce na página */
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 /* header > nav > ul > li > a:hover {
   color: #FFD700;
 } */

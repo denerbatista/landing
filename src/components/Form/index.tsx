@@ -6,7 +6,7 @@ import './style.css'
 function Form() {
   // const name: string;
   const [name, setName] = useState<string>("");
-  const [cpf, setCpf] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
   const [adress, setAdress] = useState<string>("");
   const [tel, setTel] = useState<number | string>("");
   const [country, setCountry] = useState<string>("");
@@ -28,12 +28,12 @@ function Form() {
           </fieldset>
 
           <fieldset className="fieldset-form">
-            <label htmlFor="cpf">CPF:</label>
+            <label htmlFor="cpf">E-mail:</label>
             <input
-              name="cpf"
-              type="text"
-              onChange={(e) => setCpf(e.target.value)}
-              value={cpf}
+              name="email"
+              type="email"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
             />
           </fieldset>
 

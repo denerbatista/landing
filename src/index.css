@@ -18,7 +18,8 @@
   width: 30.9rem;
   cursor: pointer;
   transition: 1.3s;
-  &:hover{
+  animation: mover 2s infinite, brilhar 1.5s infinite;
+  &:hover {
     background-color: #ffffff;
     color: #ff1493;
   }
@@ -28,6 +29,8 @@
   font-size: 4rem;
   color: #ffd700;
   text-shadow: 1px 2px 1px black;
+  animation: brilharTexto 1.5s infinite;
+  text-align: center;
 }
 
 .p-default {
