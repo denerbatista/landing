@@ -1,7 +1,6 @@
 import { useState } from "react";
-import './style.css'
-
-
+import "./style.css";
+import ButtonDefault from "../ButtonDefault";
 
 function Form() {
   // const name: string;
@@ -14,8 +13,11 @@ function Form() {
   return (
     <>
       <section id="section-form">
-      <h2 className="h2-default">Inscreva-se na nossa Newsletter!</h2>
-      <p className="p-default">Receba atualizações exclusivas sobre o evento, descontos especiais e notícias em primeira mão.</p>
+        <h2 className="h2-default">Inscreva-se na nossa Newsletter!</h2>
+        <p className="p-default">
+          Receba atualizações exclusivas sobre o evento, descontos especiais e
+          notícias em primeira mão.
+        </p>
         <form action="submit">
           <fieldset className="fieldset-form">
             <label htmlFor="name">Nome:</label>
@@ -66,8 +68,6 @@ function Form() {
               value={country}
             />
           </fieldset>
-
-          <button className="button-default" type="submit">Enviar</button>
         </form>
 
         {/* Tag usada para manter a mesma estrutura de texto digitada */}
@@ -80,7 +80,7 @@ function Form() {
             Seu telefone é ${tel}`}
         </pre> */}
 
-        <div></div>
+        <ButtonDefault title={"Enviar"} url={""} />
       </section>
     </>
   );

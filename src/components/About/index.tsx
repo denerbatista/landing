@@ -1,3 +1,4 @@
+import ButtonDefault from "../ButtonDefault";
 import "./style.css";
 
 function About() {
@@ -32,6 +33,9 @@ function About() {
     Apresentações de dança e música ao vivo.
 `}
       </pre>
+
+      <ButtonDefault title={"Compre seu Ingresso Agora"} url={"#section-tickets"} />
+
     </section>
   );
 }
