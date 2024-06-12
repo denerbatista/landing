@@ -29,7 +29,8 @@
         text-shadow: 1px 2px 1px black, 0 0 5px #ffd700;
     }
     50% {
-        text-shadow: 1px 2px 1px black, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700;
+        text-shadow: 1px 2px 1px black, 0 0 20px #ffd700, 
+        0 0 30px #ffd700, 0 0 40px #ffd700;
     }
     100% {
         text-shadow: 1px 2px 1px black, 0 0 5px #ffd700;
