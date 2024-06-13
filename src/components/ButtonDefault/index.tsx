@@ -6,7 +6,7 @@ function ButtonDefault(props: { title: string; url: string }) {
   };
 
   return (
-    <a href={props.url}>
+    <a href={props.url} id="a-button-default">
       <button onClick={clickEnviar} className="button-default">
         {props.title}
       </button>
